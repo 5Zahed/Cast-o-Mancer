@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Head from 'next/head';
-
 import { getSession } from "~/auth"
 import "~/app/globals.css";
 import { Providers } from "~/app/providers";
