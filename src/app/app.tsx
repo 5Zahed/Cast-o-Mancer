@@ -8,6 +8,7 @@ const Demo = dynamic(() => import("~/components/Home"), {
   ssr: false,
 });
 
-export default function App() {
+export default function App(
+) {
   return <Demo />;
 }
