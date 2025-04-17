@@ -5,7 +5,7 @@ export async function POST() {
     <!DOCTYPE html>
     <html>
       <head>
-        <meta property="fc:frame" content="vnext" />
+        <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="https://cast-o-mancer.vercel.app/backgroun.png" />
         <meta property="fc:frame:button:1" content="Cast Again" />
         <meta property="fc:frame:post_url" content="https://cast-o-mancer.vercel.app/api/frame" />
