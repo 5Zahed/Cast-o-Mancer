@@ -3,7 +3,7 @@
     "version": "1",
     "name": "Cast-o-Mancer",
     "iconUrl": "https://cast-o-mancer.vercel.app/icon.png",
-    "homeUrl": "https://cast-o-mancer.vercel.app/frame",
+    "homeUrl": "https://cast-o-mancer.vercel.app/frame.html",
     "splashImageUrl": "https://cast-o-mancer.vercel.app/icon.png",
     "splashBackgroundColor": "#000000"
   }
