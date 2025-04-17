@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import { getSession } from "~/auth"
 import "~/app/globals.css";
@@ -19,6 +20,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head />
       <body>
         <Providers session={session}>{children}</Providers>
       </body>
