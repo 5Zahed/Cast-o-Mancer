@@ -51,7 +51,7 @@ const Home = () => {
           response ? (
             loading ? (
               <div>
-                <img className='w-96' src="./globe.png" alt="Globe" />
+                <img className='w-96' src="./icon.png" alt="Globe" />
                 <img className=' absolute top-[21.3rem] left-[34.3rem]' src="./loading.gif" alt="" />
               </div>
             ) : (
@@ -61,7 +61,7 @@ const Home = () => {
             )
           ) : (
             <div className=''>
-              <img className='w-96' src="./globe.png" alt="Globe" />
+              <img className='w-96' src="./icon.png" alt="Globe" />
 
             </div>
           )
