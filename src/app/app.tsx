@@ -8,8 +8,6 @@ const Demo = dynamic(() => import("~/components/Home"), {
   ssr: false,
 });
 
-export default function App(
-  { title }: { title?: string } = { title: process.env.NEXT_PUBLIC_FRAME_NAME || "Frames v2 Demo" }
-) {
+export default function App() {
   return <Demo />;
 }
